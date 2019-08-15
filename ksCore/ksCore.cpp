@@ -106,7 +106,8 @@ DWORD __stdcall Run2(LPVOID param)
                 d.count = 0;
             }
             else {
-                MessageBox(NULL, L"no data.", L"Msg", MB_OK);
+                // コンソールがTOPMOSTのためダイアログを表示しないように変更
+                // MessageBox(NULL, L"no data.", L"Msg", MB_OK);
             }
             break;
 
