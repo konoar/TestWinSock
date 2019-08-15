@@ -26,7 +26,7 @@ static struct ksData
 
     struct ksRecord {
 
-        char    param[256];
+        char param[256];
 
     } record[KS_DATA_MAX];
 
