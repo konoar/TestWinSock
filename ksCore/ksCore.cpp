@@ -5,8 +5,8 @@
 
  ****************************************************/
 
-#include <Windows.h>
 #include "ksCommon.h"
+#include <Windows.h>
 
 #define KS_DATA_MAX 8
 
