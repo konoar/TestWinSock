@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksCore", "ksCore\ksCore.vcxproj", "{4C7B5AAB-8444-4893-B57E-1DA48CD2784E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC} = {4CCE653F-97DB-463D-9435-3E3DE6197AEC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksCommon", "ksCommon\ksCommon.vcxproj", "{4CCE653F-97DB-463D-9435-3E3DE6197AEC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksConsole", "ksConsole\ksConsole.vcxproj", "{AA0DD6EC-FDCD-464E-A471-D7F526F5DD84}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC} = {4CCE653F-97DB-463D-9435-3E3DE6197AEC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksExecute", "ksExecute\ksExecute.vcxproj", "{1E240377-F134-4BD9-989D-31228E40633C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC} = {4CCE653F-97DB-463D-9435-3E3DE6197AEC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C7B5AAB-8444-4893-B57E-1DA48CD2784E}.Debug|x64.ActiveCfg = Debug|x64
+		{4C7B5AAB-8444-4893-B57E-1DA48CD2784E}.Debug|x64.Build.0 = Debug|x64
+		{4C7B5AAB-8444-4893-B57E-1DA48CD2784E}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C7B5AAB-8444-4893-B57E-1DA48CD2784E}.Debug|x86.Build.0 = Debug|Win32
+		{4C7B5AAB-8444-4893-B57E-1DA48CD2784E}.Release|x64.ActiveCfg = Release|x64
+		{4C7B5AAB-8444-4893-B57E-1DA48CD2784E}.Release|x64.Build.0 = Release|x64
+		{4C7B5AAB-8444-4893-B57E-1DA48CD2784E}.Release|x86.ActiveCfg = Release|Win32
+		{4C7B5AAB-8444-4893-B57E-1DA48CD2784E}.Release|x86.Build.0 = Release|Win32
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC}.Debug|x64.ActiveCfg = Debug|x64
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC}.Debug|x64.Build.0 = Debug|x64
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC}.Debug|x86.ActiveCfg = Debug|Win32
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC}.Debug|x86.Build.0 = Debug|Win32
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC}.Release|x64.ActiveCfg = Release|x64
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC}.Release|x64.Build.0 = Release|x64
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC}.Release|x86.ActiveCfg = Release|Win32
+		{4CCE653F-97DB-463D-9435-3E3DE6197AEC}.Release|x86.Build.0 = Release|Win32
+		{AA0DD6EC-FDCD-464E-A471-D7F526F5DD84}.Debug|x64.ActiveCfg = Debug|x64
+		{AA0DD6EC-FDCD-464E-A471-D7F526F5DD84}.Debug|x64.Build.0 = Debug|x64
+		{AA0DD6EC-FDCD-464E-A471-D7F526F5DD84}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA0DD6EC-FDCD-464E-A471-D7F526F5DD84}.Debug|x86.Build.0 = Debug|Win32
+		{AA0DD6EC-FDCD-464E-A471-D7F526F5DD84}.Release|x64.ActiveCfg = Release|x64
+		{AA0DD6EC-FDCD-464E-A471-D7F526F5DD84}.Release|x64.Build.0 = Release|x64
+		{AA0DD6EC-FDCD-464E-A471-D7F526F5DD84}.Release|x86.ActiveCfg = Release|Win32
+		{AA0DD6EC-FDCD-464E-A471-D7F526F5DD84}.Release|x86.Build.0 = Release|Win32
+		{1E240377-F134-4BD9-989D-31228E40633C}.Debug|x64.ActiveCfg = Debug|x64
+		{1E240377-F134-4BD9-989D-31228E40633C}.Debug|x64.Build.0 = Debug|x64
+		{1E240377-F134-4BD9-989D-31228E40633C}.Debug|x86.ActiveCfg = Debug|Win32
+		{1E240377-F134-4BD9-989D-31228E40633C}.Debug|x86.Build.0 = Debug|Win32
+		{1E240377-F134-4BD9-989D-31228E40633C}.Release|x64.ActiveCfg = Release|x64
+		{1E240377-F134-4BD9-989D-31228E40633C}.Release|x64.Build.0 = Release|x64
+		{1E240377-F134-4BD9-989D-31228E40633C}.Release|x86.ActiveCfg = Release|Win32
+		{1E240377-F134-4BD9-989D-31228E40633C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D88C76A-9D15-45E3-B1C4-3BF8FE35416B}
+	EndGlobalSection
+EndGlobal
